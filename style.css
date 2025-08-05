@@ -1,0 +1,216 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+  margin: 0;
+  font-family:Sans-Serif;
+  width:100%;
+  background:#FFFFFF;
+    }
+    
+.navbar {
+  overflow: hidden;
+  background:#191970;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  font-size: 5vw;
+  font-weight:strong;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+
+.navbar,a {
+  float: left;
+  display: block;
+  color: #7D00FF;
+  text-align: center;
+  padding: 17px 17px;
+  text-decoration: none;
+}
+
+
+.logo {
+  width: 90px;
+  height: 90px;
+  border-radius:50%;
+  margin-right: 10px;
+}
+
+.title{
+  margin: 0;
+  display: inline;
+  font-family: Times New Roman;
+  font-size: 7.7vw;
+  font-weight: bold;
+   color:#D4AF37;
+}
+
+.content {
+  /* Adjust to compensate for the fixed navbar */
+}
+
+h2 {
+  text-align: center;
+}
+
+.subtitles {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.subtitles li {
+  padding: 10px;
+}
+
+.tt{
+    width:100%;
+    height:auto;
+    margin:0;
+    background: #4B0082;
+}
+    .c-mul{
+        width:100%;
+        height:auto;
+        background:#0A0A0A;
+        margin:9px auto;
+    }
+    .post{
+        width:90%;
+        height:auto;
+        
+        margin:18px 5%;
+        background-color:#004D40;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+        border: solid 4px Gold;
+
+        border-radius:39px;
+    }
+    #ppp{
+        width:90%;
+        height:auto;
+        margin:17px 5%;
+        
+    }
+  
+ pre{
+            white-space: pre-wrap; /* Preserve white spaces, wrap text as needed */
+            word-wrap: break-word; /* Break long words to fit within the container */
+            font-size: 3vw;
+          
+            text-align: center;
+            color:Overlay	White;
+            font-family:Times New Roman;
+        }
+    
+    button{
+        width:50%;
+        height:70px;
+        font-size: 4vw;
+        font-weight: bold;
+        font-family:Monospace;
+        color:#9AEEF2;
+        margin: 18px 25%;
+        background-color: rgba(255, 255, 255, .15);
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+        border:3px solid #FF0048;
+        border-radius:18px;
+        transition-delay: 0.7s;
+    }
+    button:hover{
+        background: #97EBB7;
+        color: #F4FFE9;
+    }
+    
+    h2,h3{
+        text-align: center;
+        color:#4B0082;
+        text-decoration:underline;
+        font-size:5vw;
+        font-family: Times New Roman;
+        
+        
+    }
+    #coNT,#abt{
+        width:90%;
+        height:auto;
+        margin:6px 5%;
+        display:none;
+        background-color:;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+        border:3px solid #EBF4F5;
+        border-radius:27px;
+    }
+    #spp{
+        font-size: 7vw;
+        text-align: center;
+        color:#CC00FF;
+        font-weight: strong;
+        margin:3px 3px;
+        padding:9px;
+    }
+    #c-ml{
+        display: block;
+    }
+    #sbt{
+        font-size: 4vw;
+        text-align: center;
+        color:#CC00FF;
+        font-weight: strong;
+        margin:3px 3px;
+        padding:9px;
+    }
+    
+    #btN{
+        width:27%;
+        height:auto;
+        font-size:5vw;
+        font-weight: strong;
+        font-family:Sans-Serif;
+        text-align: center;
+        color:#FFFFFF;
+        margin:7px 2.5%;
+        background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px);
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+        border:1.5px solid white;
+        border-radius:12px;
+        transition-delay: 0.3s;
+    }
+    #btN:hover{
+        background: #FFD600;
+        color: #F4FFE9;
+    }
+    
+   #hnbr{
+       width:100%;
+       height:18px;
+       background: #FFFFFF;
+   }
+   
+   @media (max-width: 768px) { pre { font-size: 2.8vw; } h2, h3 { font-size: 6vw; } button { font-size: 4vw; width: 50%; margin: 12px 25%; } .logo { width: 60px; height: 60px; } }
+
+
+}@media (max-width: 768px) {
+  pre {
+    font-size: 2.8vw;
+  }
+
+  h2, h3 {
+    font-size: 6vw;
+  }
+
+  button {
+    font-size: 4vw;
+    width: 50%;
+    margin: 12px 25%;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+  
